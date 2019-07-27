@@ -14,5 +14,8 @@
             "Pds\\Skeleton\\": "tests/"
         }
     },
-    "bin": ["bin/pds-skeleton"]
+    "bin": ["bin/pds-skeleton"],
+    "require-dev": {
+        "phpunit/phpunit": "^8.2"
+    }
 }
