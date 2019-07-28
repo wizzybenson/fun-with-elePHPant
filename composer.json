@@ -1,20 +1,22 @@
 {
-    "name": "pds/skeleton",
+    "name": "fun-with-elePHPant",
     "type": "standard",
-    "description": "Standard for PHP package skeletons.",
-    "homepage": "https://github.com/php-pds/skeleton",
+    "description": "Algorithms and Datastructures using PHP",
+    "homepage": "https://github.com/wizzybenson/fun-with-elePHPant",
     "license": "CC-BY-SA-4.0",
     "autoload": {
         "psr-4": {
-            "Pds\\Skeleton\\": "src/"
+            "FunwithelePHPant\\Datastructures\\": "src/Datastructures",
+            "FunwithelePHPant\\Algorithms\\": "src/Algorithms"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Pds\\Skeleton\\": "tests/"
+            "FunwithelePHPant\\Datastructures\\": "tests/Datastructures",
+            "FunwithelePHPant\\Algorithms\\": "tests/Algorithms"
         }
     },
-    "bin": ["bin/pds-skeleton"],
+    "bin": ["bin/fun-with-elePHPant"],
     "require-dev": {
         "phpunit/phpunit": "^8.2"
     }
