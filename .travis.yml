@@ -1,3 +1,10 @@
 language: php
 php:
   - 7.2.20
+before-install:
+  - composer self-update
+install:
+  - composer install
+cache:
+ directories:
+   - $HOME/.composer/cache/files
