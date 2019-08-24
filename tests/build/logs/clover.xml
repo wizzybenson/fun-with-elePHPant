@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1566597295">
+  <project timestamp="1566597295">
+    <file name="/var/www/html/funwithelePHPant/src/Datastructures/Contracts/IBag.php">
+      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/funwithelePHPant/src/Datastructures/Contracts/IQueue.php">
+      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/var/www/html/funwithelePHPant/src/Datastructures/Contracts/IStack.php">
+      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="FunwithelePHPant\Datastructures\LinkedList">
+      <file name="/var/www/html/funwithelePHPant/src/Datastructures/LinkedList/ANode.php">
+        <class name="FunwithelePHPant\Datastructures\LinkedList\ANode" namespace="FunwithelePHPant\Datastructures\LinkedList">
+          <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        </class>
+        <line num="10" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="12" type="stmt" count="9"/>
+        <line num="13" type="stmt" count="9"/>
+        <line num="14" type="stmt" count="9"/>
+        <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+      </file>
+      <file name="/var/www/html/funwithelePHPant/src/Datastructures/LinkedList/LinkedList.php">
+        <class name="FunwithelePHPant\Datastructures\LinkedList\LinkedList" namespace="FunwithelePHPant\Datastructures\LinkedList">
+          <metrics complexity="20" methods="15" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="41" elements="58" coveredelements="54"/>
+        </class>
+        <line num="19" type="method" name="isEmpty" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="21" type="stmt" count="3"/>
+        <line num="24" type="method" name="size" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="26" type="stmt" count="0"/>
+        <line num="29" type="method" name="add" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="38" type="method" name="enqueue" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="40" type="stmt" count="2"/>
+        <line num="41" type="stmt" count="2"/>
+        <line num="43" type="stmt" count="2"/>
+        <line num="44" type="stmt" count="2"/>
+        <line num="46" type="stmt" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="52" type="method" name="dequeue" visibility="public" complexity="3" crap="3" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="57" type="stmt" count="2"/>
+        <line num="58" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="69" type="method" name="push" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="71" type="stmt" count="4"/>
+        <line num="72" type="stmt" count="4"/>
+        <line num="73" type="stmt" count="4"/>
+        <line num="74" type="stmt" count="4"/>
+        <line num="75" type="stmt" count="4"/>
+        <line num="77" type="method" name="pop" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="80" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="2"/>
+        <line num="82" type="stmt" count="2"/>
+        <line num="85" type="method" name="peek" visibility="public" complexity="2" crap="6.00" count="0"/>
+        <line num="87" type="stmt" count="0"/>
+        <line num="90" type="method" name="current" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="92" type="stmt" count="4"/>
+        <line num="95" type="method" name="key" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="97" type="stmt" count="2"/>
+        <line num="100" type="method" name="next" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="102" type="stmt" count="4"/>
+        <line num="103" type="stmt" count="4"/>
+        <line num="104" type="stmt" count="4"/>
+        <line num="106" type="method" name="rewind" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="108" type="stmt" count="4"/>
+        <line num="109" type="stmt" count="4"/>
+        <line num="110" type="stmt" count="4"/>
+        <line num="112" type="method" name="valid" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="114" type="stmt" count="4"/>
+        <line num="117" type="method" name="grow" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="119" type="stmt" count="6"/>
+        <line num="120" type="stmt" count="6"/>
+        <line num="122" type="method" name="shrink" visibility="public" complexity="1" crap="1" count="3"/>
+        <line num="124" type="stmt" count="3"/>
+        <line num="125" type="stmt" count="3"/>
+        <metrics loc="125" ncloc="125" classes="1" methods="15" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="41" elements="58" coveredelements="54"/>
+      </file>
+      <file name="/var/www/html/funwithelePHPant/src/Datastructures/LinkedList/StringNode.php">
+        <class name="FunwithelePHPant\Datastructures\LinkedList\StringNode" namespace="FunwithelePHPant\Datastructures\LinkedList">
+          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="2"/>
+        </class>
+        <line num="8" type="method" name="validateNodeItemType" visibility="public" complexity="2" crap="2.15" count="9"/>
+        <line num="10" type="stmt" count="9"/>
+        <line num="12" type="stmt" count="0"/>
+        <line num="15" type="stmt" count="9"/>
+        <line num="17" type="method" name="__toString" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="19" type="stmt" count="0"/>
+        <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="2"/>
+      </file>
+    </package>
+    <file name="/var/www/html/funwithelePHPant/src/functions/fn.fundamentals.php">
+      <line num="15" type="stmt" count="2"/>
+      <line num="16" type="stmt" count="2"/>
+      <line num="18" type="stmt" count="2"/>
+      <line num="38" type="stmt" count="0"/>
+      <line num="39" type="stmt" count="0"/>
+      <line num="40" type="stmt" count="0"/>
+      <line num="43" type="stmt" count="0"/>
+      <line num="44" type="stmt" count="0"/>
+      <line num="45" type="stmt" count="0"/>
+      <line num="46" type="stmt" count="0"/>
+      <line num="53" type="stmt" count="0"/>
+      <line num="65" type="stmt" count="0"/>
+      <line num="66" type="stmt" count="0"/>
+      <line num="78" type="stmt" count="0"/>
+      <line num="79" type="stmt" count="0"/>
+      <line num="92" type="stmt" count="0"/>
+      <line num="96" type="stmt" count="0"/>
+      <line num="113" type="stmt" count="1"/>
+      <line num="114" type="stmt" count="0"/>
+      <line num="118" type="stmt" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="121" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="124" type="stmt" count="1"/>
+      <line num="125" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <line num="146" type="stmt" count="1"/>
+      <line num="147" type="stmt" count="1"/>
+      <line num="148" type="stmt" count="1"/>
+      <line num="151" type="stmt" count="1"/>
+      <line num="152" type="stmt" count="1"/>
+      <line num="155" type="stmt" count="1"/>
+      <metrics loc="155" ncloc="78" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="18" elements="33" coveredelements="18"/>
+    </file>
+    <metrics files="7" loc="352" ncloc="275" classes="3" methods="18" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="83" coveredstatements="64" elements="101" coveredelements="78"/>
+  </project>
+</coverage>

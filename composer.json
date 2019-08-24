@@ -7,8 +7,11 @@
     "autoload": {
         "psr-4": {
             "FunwithelePHPant\\Datastructures\\": "src/Datastructures",
-            "FunwithelePHPant\\Algorithms\\": "src/Algorithms"
-        }
+            "FunwithelePHPant\\Algorithms\\": "src/Algorithms",
+            "FunwithelePHPant\\Benchmark\\Framework\\": "lib/benchmark/",
+            "FunwithelePHPant\\Config\\": "config/"
+        },
+        "files": ["src/functions/fn.fundamentals.php"] 
     },
     "autoload-dev": {
         "psr-4": {
