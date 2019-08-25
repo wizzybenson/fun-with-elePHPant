@@ -1,16 +1,28 @@
-<?php declare(strict_types = 1);
+<?php declare(strict_types=1);
 
 namespace FunwithelePHPant\Datastructures\LinkedList;
 
+/**
+ * Class ANode
+ * @package FunwithelePHPant\Datastructures\LinkedList
+ */
 abstract class ANode
 {
-	public $item;
-	public $next = null;
+    public $item;
+    public $next = null;
 
-	public function __construct($item)
-	{
-		$this->validateNodeItemType($item);
-		$this->item = $item;
-	}
-	abstract protected function validateNodeItemType($item) : void;
+    /**
+     * ANode constructor.
+     * @param $item
+     */
+    public function __construct($item)
+    {
+        $this->validateNodeItemType($item);
+        $this->item = $item;
+    }
+
+    /**
+     * @param $item
+     */
+    abstract protected function validateNodeItemType($item): void;
 } 

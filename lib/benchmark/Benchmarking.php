@@ -2,23 +2,23 @@
 
 namespace FunwithelePHPant\Benchmark\Framework;
 
-class Benchmarking 
+class Benchmarking
 {
-	public static function load(string $benchmarks_directory = "/var/www/html/funwithelePHPant/benchmarks")
-	{
-		if ($handle = opendir(realpath($benchmarks_directory))) {
-			while (false !== ($entry = readdir($handle))) {
-				echo "$entry\n";
-			}
+    public static function load(string $benchmarks_directory = "/var/www/html/funwithelePHPant/benchmarks")
+    {
+        if ($handle = opendir(realpath($benchmarks_directory))) {
+            while (false !== ($entry = readdir($handle))) {
+                echo "$entry\n";
+            }
 
-			closedir($handle);
-		}
+            closedir($handle);
+        }
 
-	}
+    }
 
-	public static function run()
-	{
+    public static function run()
+    {
 
-	}
+    }
 
 }

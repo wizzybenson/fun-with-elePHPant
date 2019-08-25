@@ -1,12 +1,28 @@
-<?php declare(strict_types = 1);
+<?php declare(strict_types=1);
 
 namespace FunwithelePHPant\Datastructures\Contracts;
 
 use FunwithelePHPant\Datastructures\LinkedList\ANode as Node;
 
-interface IBag 
+/**
+ * Interface IBag
+ * @package FunwithelePHPant\Datastructures\Contracts
+ */
+interface IBag
 {
-	public function isEmpty() : bool;
-	public function size() : int;
-	public function add(Node $node);
+    /**
+     * @return bool
+     */
+    public function isEmpty(): bool;
+
+    /**
+     * @return int
+     */
+    public function size(): int;
+
+    /**
+     * @param Node $node
+     * @return mixed
+     */
+    public function add(Node $node);
 }

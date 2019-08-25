@@ -1,14 +1,38 @@
-<?php declare(strict_types = 1);
+<?php declare(strict_types=1);
 
 namespace FunwithelePHPant\Datastructures\Contracts;
 
 use FunwithelePHPant\Datastructures\LinkedList\ANode as Node;
 
-interface IQueue 
+/**
+ * Interface IQueue
+ * @package FunwithelePHPant\Datastructures\Contracts
+ */
+interface IQueue
 {
-	public function isEmpty() : bool;
-	public function size() : int;
-	public function enqueue(Node $node);
-	public function dequeue() : ?Node;
-	public function peek() : ?Node;
+    /**
+     * @return bool
+     */
+    public function isEmpty(): bool;
+
+    /**
+     * @return int
+     */
+    public function size(): int;
+
+    /**
+     * @param Node $node
+     * @return mixed
+     */
+    public function enqueue(Node $node);
+
+    /**
+     * @return Node|null
+     */
+    public function dequeue(): ?Node;
+
+    /**
+     * @return Node|null
+     */
+    public function peek(): ?Node;
 }

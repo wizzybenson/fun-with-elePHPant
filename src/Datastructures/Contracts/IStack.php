@@ -1,14 +1,37 @@
-<?php declare(strict_types = 1);
+<?php declare(strict_types=1);
 
 namespace FunwithelePHPant\Datastructures\Contracts;
 
 use FunwithelePHPant\Datastructures\LinkedList\ANode as Node;
 
-interface IStack 
+/**
+ * Interface IStack
+ * @package FunwithelePHPant\Datastructures\Contracts
+ */
+interface IStack
 {
-	public function isEmpty() : bool;
-	public function size() : int;
-	public function push(Node $node) : void;
-	public function pop() : ?Node;
-	public function peek() : ?Node;
+    /**
+     * @return bool
+     */
+    public function isEmpty(): bool;
+
+    /**
+     * @return int
+     */
+    public function size(): int;
+
+    /**
+     * @param Node $node
+     */
+    public function push(Node $node): void;
+
+    /**
+     * @return Node|null
+     */
+    public function pop(): ?Node;
+
+    /**
+     * @return Node|null
+     */
+    public function peek(): ?Node;
 }
