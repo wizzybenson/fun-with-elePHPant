@@ -1,139 +1,192 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1566597295">
-  <project timestamp="1566597295">
+<coverage generated="1567378530">
+  <project timestamp="1567378530">
     <file name="/var/www/html/funwithelePHPant/src/Datastructures/Contracts/IBag.php">
-      <metrics loc="11" ncloc="11" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="27" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/var/www/html/funwithelePHPant/src/Datastructures/Contracts/IQueue.php">
-      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="37" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <file name="/var/www/html/funwithelePHPant/src/Datastructures/Contracts/IStack.php">
-      <metrics loc="13" ncloc="13" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+      <metrics loc="36" ncloc="17" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
     </file>
     <package name="FunwithelePHPant\Datastructures\LinkedList">
       <file name="/var/www/html/funwithelePHPant/src/Datastructures/LinkedList/ANode.php">
-        <class name="FunwithelePHPant\Datastructures\LinkedList\ANode" namespace="FunwithelePHPant\Datastructures\LinkedList">
+        <class name="FunwithelePHPant\Datastructures\LinkedList\ANode" namespace="FunwithelePHPant\Datastructures\LinkedList" fullPackage="FunwithelePHPant" package="FunwithelePHPant">
           <metrics complexity="2" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
         </class>
-        <line num="10" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
-        <line num="12" type="stmt" count="9"/>
-        <line num="13" type="stmt" count="9"/>
-        <line num="14" type="stmt" count="9"/>
-        <metrics loc="15" ncloc="15" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
+        <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="12"/>
+        <line num="20" type="stmt" count="12"/>
+        <line num="21" type="stmt" count="12"/>
+        <line num="22" type="stmt" count="12"/>
+        <metrics loc="27" ncloc="16" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="3" coveredstatements="3" elements="4" coveredelements="4"/>
       </file>
       <file name="/var/www/html/funwithelePHPant/src/Datastructures/LinkedList/LinkedList.php">
-        <class name="FunwithelePHPant\Datastructures\LinkedList\LinkedList" namespace="FunwithelePHPant\Datastructures\LinkedList">
-          <metrics complexity="20" methods="15" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="41" elements="58" coveredelements="54"/>
+        <class name="FunwithelePHPant\Datastructures\LinkedList\LinkedList" namespace="FunwithelePHPant\Datastructures\LinkedList" fullPackage="FunwithelePHPant" package="FunwithelePHPant">
+          <metrics complexity="20" methods="15" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="42" elements="58" coveredelements="56"/>
         </class>
-        <line num="19" type="method" name="isEmpty" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="21" type="stmt" count="3"/>
-        <line num="24" type="method" name="size" visibility="public" complexity="1" crap="2.00" count="0"/>
-        <line num="26" type="stmt" count="0"/>
-        <line num="29" type="method" name="add" visibility="public" complexity="1" crap="1" count="1"/>
-        <line num="31" type="stmt" count="1"/>
-        <line num="32" type="stmt" count="1"/>
-        <line num="33" type="stmt" count="1"/>
-        <line num="34" type="stmt" count="1"/>
-        <line num="36" type="stmt" count="1"/>
-        <line num="38" type="method" name="enqueue" visibility="public" complexity="2" crap="2" count="2"/>
-        <line num="40" type="stmt" count="2"/>
-        <line num="41" type="stmt" count="2"/>
-        <line num="43" type="stmt" count="2"/>
-        <line num="44" type="stmt" count="2"/>
-        <line num="46" type="stmt" count="2"/>
-        <line num="49" type="stmt" count="2"/>
-        <line num="50" type="stmt" count="2"/>
-        <line num="52" type="method" name="dequeue" visibility="public" complexity="3" crap="3" count="2"/>
-        <line num="54" type="stmt" count="2"/>
-        <line num="55" type="stmt" count="2"/>
-        <line num="57" type="stmt" count="2"/>
-        <line num="58" type="stmt" count="2"/>
-        <line num="61" type="stmt" count="2"/>
-        <line num="63" type="stmt" count="2"/>
-        <line num="69" type="method" name="push" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="71" type="stmt" count="4"/>
-        <line num="72" type="stmt" count="4"/>
-        <line num="73" type="stmt" count="4"/>
-        <line num="74" type="stmt" count="4"/>
-        <line num="75" type="stmt" count="4"/>
-        <line num="77" type="method" name="pop" visibility="public" complexity="2" crap="2" count="2"/>
-        <line num="79" type="stmt" count="2"/>
-        <line num="80" type="stmt" count="2"/>
-        <line num="81" type="stmt" count="2"/>
-        <line num="82" type="stmt" count="2"/>
-        <line num="85" type="method" name="peek" visibility="public" complexity="2" crap="6.00" count="0"/>
-        <line num="87" type="stmt" count="0"/>
-        <line num="90" type="method" name="current" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="92" type="stmt" count="4"/>
-        <line num="95" type="method" name="key" visibility="public" complexity="1" crap="1" count="2"/>
-        <line num="97" type="stmt" count="2"/>
-        <line num="100" type="method" name="next" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="102" type="stmt" count="4"/>
-        <line num="103" type="stmt" count="4"/>
-        <line num="104" type="stmt" count="4"/>
-        <line num="106" type="method" name="rewind" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="108" type="stmt" count="4"/>
-        <line num="109" type="stmt" count="4"/>
-        <line num="110" type="stmt" count="4"/>
-        <line num="112" type="method" name="valid" visibility="public" complexity="1" crap="1" count="4"/>
-        <line num="114" type="stmt" count="4"/>
-        <line num="117" type="method" name="grow" visibility="public" complexity="1" crap="1" count="6"/>
-        <line num="119" type="stmt" count="6"/>
-        <line num="120" type="stmt" count="6"/>
-        <line num="122" type="method" name="shrink" visibility="public" complexity="1" crap="1" count="3"/>
-        <line num="124" type="stmt" count="3"/>
-        <line num="125" type="stmt" count="3"/>
-        <metrics loc="125" ncloc="125" classes="1" methods="15" coveredmethods="13" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="41" elements="58" coveredelements="54"/>
+        <line num="25" type="method" name="isEmpty" visibility="public" complexity="1" crap="1" count="5"/>
+        <line num="27" type="stmt" count="5"/>
+        <line num="33" type="method" name="size" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="35" type="stmt" count="0"/>
+        <line num="41" type="method" name="add" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="43" type="stmt" count="1"/>
+        <line num="44" type="stmt" count="1"/>
+        <line num="45" type="stmt" count="1"/>
+        <line num="46" type="stmt" count="1"/>
+        <line num="48" type="stmt" count="1"/>
+        <line num="53" type="method" name="enqueue" visibility="public" complexity="2" crap="2" count="3"/>
+        <line num="55" type="stmt" count="3"/>
+        <line num="56" type="stmt" count="3"/>
+        <line num="58" type="stmt" count="3"/>
+        <line num="59" type="stmt" count="3"/>
+        <line num="61" type="stmt" count="3"/>
+        <line num="64" type="stmt" count="3"/>
+        <line num="65" type="stmt" count="3"/>
+        <line num="70" type="method" name="dequeue" visibility="public" complexity="3" crap="3" count="3"/>
+        <line num="72" type="stmt" count="3"/>
+        <line num="73" type="stmt" count="3"/>
+        <line num="75" type="stmt" count="3"/>
+        <line num="76" type="stmt" count="3"/>
+        <line num="79" type="stmt" count="3"/>
+        <line num="81" type="stmt" count="3"/>
+        <line num="90" type="method" name="push" visibility="public" complexity="1" crap="1" count="7"/>
+        <line num="92" type="stmt" count="7"/>
+        <line num="93" type="stmt" count="7"/>
+        <line num="94" type="stmt" count="7"/>
+        <line num="95" type="stmt" count="7"/>
+        <line num="96" type="stmt" count="7"/>
+        <line num="101" type="method" name="pop" visibility="public" complexity="2" crap="2" count="5"/>
+        <line num="103" type="stmt" count="5"/>
+        <line num="104" type="stmt" count="5"/>
+        <line num="105" type="stmt" count="5"/>
+        <line num="106" type="stmt" count="5"/>
+        <line num="112" type="method" name="peek" visibility="public" complexity="2" crap="2" count="1"/>
+        <line num="114" type="stmt" count="1"/>
+        <line num="120" type="method" name="current" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="122" type="stmt" count="4"/>
+        <line num="128" type="method" name="key" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="130" type="stmt" count="2"/>
+        <line num="133" type="method" name="next" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="135" type="stmt" count="4"/>
+        <line num="136" type="stmt" count="4"/>
+        <line num="137" type="stmt" count="4"/>
+        <line num="139" type="method" name="rewind" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="141" type="stmt" count="4"/>
+        <line num="142" type="stmt" count="4"/>
+        <line num="143" type="stmt" count="4"/>
+        <line num="148" type="method" name="valid" visibility="public" complexity="1" crap="1" count="4"/>
+        <line num="150" type="stmt" count="4"/>
+        <line num="153" type="method" name="grow" visibility="public" complexity="1" crap="1" count="9"/>
+        <line num="155" type="stmt" count="9"/>
+        <line num="156" type="stmt" count="9"/>
+        <line num="158" type="method" name="shrink" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="160" type="stmt" count="6"/>
+        <line num="161" type="stmt" count="6"/>
+        <metrics loc="161" ncloc="124" classes="1" methods="15" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="43" coveredstatements="42" elements="58" coveredelements="56"/>
       </file>
       <file name="/var/www/html/funwithelePHPant/src/Datastructures/LinkedList/StringNode.php">
-        <class name="FunwithelePHPant\Datastructures\LinkedList\StringNode" namespace="FunwithelePHPant\Datastructures\LinkedList">
-          <metrics complexity="3" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="2"/>
+        <class name="FunwithelePHPant\Datastructures\LinkedList\StringNode" namespace="FunwithelePHPant\Datastructures\LinkedList" fullPackage="FunwithelePHPant" package="FunwithelePHPant">
+          <metrics complexity="3" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
         </class>
-        <line num="8" type="method" name="validateNodeItemType" visibility="public" complexity="2" crap="2.15" count="9"/>
-        <line num="10" type="stmt" count="9"/>
-        <line num="12" type="stmt" count="0"/>
-        <line num="15" type="stmt" count="9"/>
-        <line num="17" type="method" name="__toString" visibility="public" complexity="1" crap="2.00" count="0"/>
+        <line num="15" type="method" name="validateNodeItemType" visibility="public" complexity="2" crap="2.15" count="12"/>
+        <line num="17" type="stmt" count="12"/>
         <line num="19" type="stmt" count="0"/>
-        <metrics loc="20" ncloc="20" classes="1" methods="2" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="2" elements="6" coveredelements="2"/>
+        <line num="22" type="stmt" count="12"/>
+        <line num="27" type="method" name="__toString" visibility="public" complexity="1" crap="1" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <metrics loc="30" ncloc="20" classes="1" methods="2" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="4" coveredstatements="3" elements="6" coveredelements="4"/>
       </file>
     </package>
     <file name="/var/www/html/funwithelePHPant/src/functions/fn.fundamentals.php">
-      <line num="15" type="stmt" count="2"/>
-      <line num="16" type="stmt" count="2"/>
+      <line num="17" type="stmt" count="2"/>
       <line num="18" type="stmt" count="2"/>
-      <line num="38" type="stmt" count="0"/>
-      <line num="39" type="stmt" count="0"/>
-      <line num="40" type="stmt" count="0"/>
+      <line num="20" type="stmt" count="2"/>
+      <line num="41" type="stmt" count="0"/>
+      <line num="42" type="stmt" count="0"/>
       <line num="43" type="stmt" count="0"/>
-      <line num="44" type="stmt" count="0"/>
-      <line num="45" type="stmt" count="0"/>
       <line num="46" type="stmt" count="0"/>
-      <line num="53" type="stmt" count="0"/>
-      <line num="65" type="stmt" count="0"/>
-      <line num="66" type="stmt" count="0"/>
-      <line num="78" type="stmt" count="0"/>
-      <line num="79" type="stmt" count="0"/>
-      <line num="92" type="stmt" count="0"/>
-      <line num="96" type="stmt" count="0"/>
-      <line num="113" type="stmt" count="1"/>
-      <line num="114" type="stmt" count="0"/>
-      <line num="118" type="stmt" count="1"/>
-      <line num="119" type="stmt" count="1"/>
-      <line num="120" type="stmt" count="1"/>
+      <line num="47" type="stmt" count="0"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="49" type="stmt" count="0"/>
+      <line num="56" type="stmt" count="0"/>
+      <line num="69" type="stmt" count="0"/>
+      <line num="70" type="stmt" count="0"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="84" type="stmt" count="0"/>
+      <line num="99" type="stmt" count="0"/>
+      <line num="103" type="stmt" count="0"/>
       <line num="121" type="stmt" count="1"/>
-      <line num="122" type="stmt" count="1"/>
-      <line num="124" type="stmt" count="1"/>
-      <line num="125" type="stmt" count="1"/>
-      <line num="135" type="stmt" count="1"/>
-      <line num="146" type="stmt" count="1"/>
-      <line num="147" type="stmt" count="1"/>
-      <line num="148" type="stmt" count="1"/>
-      <line num="151" type="stmt" count="1"/>
-      <line num="152" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="0"/>
+      <line num="126" type="stmt" count="1"/>
+      <line num="127" type="stmt" count="1"/>
+      <line num="128" type="stmt" count="1"/>
+      <line num="129" type="stmt" count="1"/>
+      <line num="130" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="144" type="stmt" count="1"/>
       <line num="155" type="stmt" count="1"/>
-      <metrics loc="155" ncloc="78" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="33" coveredstatements="18" elements="33" coveredelements="18"/>
+      <line num="156" type="stmt" count="1"/>
+      <line num="157" type="stmt" count="1"/>
+      <line num="160" type="stmt" count="1"/>
+      <line num="161" type="stmt" count="1"/>
+      <line num="164" type="stmt" count="1"/>
+      <line num="176" type="stmt" count="1"/>
+      <line num="177" type="stmt" count="1"/>
+      <line num="178" type="stmt" count="1"/>
+      <line num="179" type="stmt" count="1"/>
+      <line num="180" type="stmt" count="1"/>
+      <line num="181" type="stmt" count="1"/>
+      <line num="182" type="stmt" count="1"/>
+      <line num="183" type="stmt" count="1"/>
+      <line num="184" type="stmt" count="1"/>
+      <line num="185" type="stmt" count="1"/>
+      <line num="187" type="stmt" count="1"/>
+      <line num="190" type="stmt" count="1"/>
+      <line num="191" type="stmt" count="1"/>
+      <line num="193" type="stmt" count="0"/>
+      <line num="202" type="stmt" count="2"/>
+      <line num="211" type="stmt" count="1"/>
+      <line num="223" type="stmt" count="1"/>
+      <line num="224" type="stmt" count="1"/>
+      <line num="225" type="stmt" count="1"/>
+      <line num="226" type="stmt" count="1"/>
+      <line num="229" type="stmt" count="1"/>
+      <line num="230" type="stmt" count="1"/>
+      <line num="233" type="stmt" count="1"/>
+      <line num="234" type="stmt" count="1"/>
+      <line num="235" type="stmt" count="1"/>
+      <line num="237" type="stmt" count="1"/>
+      <line num="240" type="stmt" count="1"/>
+      <line num="241" type="stmt" count="1"/>
+      <line num="242" type="stmt" count="1"/>
+      <line num="243" type="stmt" count="1"/>
+      <line num="244" type="stmt" count="1"/>
+      <line num="245" type="stmt" count="1"/>
+      <line num="247" type="stmt" count="1"/>
+      <line num="250" type="stmt" count="1"/>
+      <line num="253" type="stmt" count="1"/>
+      <line num="254" type="stmt" count="1"/>
+      <line num="257" type="stmt" count="1"/>
+      <line num="258" type="stmt" count="1"/>
+      <line num="261" type="stmt" count="1"/>
+      <line num="272" type="stmt" count="1"/>
+      <line num="273" type="stmt" count="1"/>
+      <line num="274" type="stmt" count="1"/>
+      <line num="277" type="stmt" count="1"/>
+      <line num="278" type="stmt" count="1"/>
+      <line num="279" type="stmt" count="1"/>
+      <line num="280" type="stmt" count="1"/>
+      <line num="282" type="stmt" count="1"/>
+      <line num="283" type="stmt" count="1"/>
+      <line num="287" type="stmt" count="1"/>
+      <line num="296" type="stmt" count="2"/>
+      <line num="332" type="stmt" count="1"/>
+      <line num="343" type="stmt" count="1"/>
+      <line num="353" type="stmt" count="2"/>
+      <metrics loc="353" ncloc="227" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="86" coveredstatements="70" elements="86" coveredelements="70"/>
     </file>
-    <metrics files="7" loc="352" ncloc="275" classes="3" methods="18" coveredmethods="14" conditionals="0" coveredconditionals="0" statements="83" coveredstatements="64" elements="101" coveredelements="78"/>
+    <metrics files="7" loc="671" ncloc="434" classes="3" methods="18" coveredmethods="16" conditionals="0" coveredconditionals="0" statements="136" coveredstatements="118" elements="154" coveredelements="134"/>
   </project>
 </coverage>

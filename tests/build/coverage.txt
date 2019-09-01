@@ -1,16 +1,16 @@
 
 
-Code Coverage Report:    
-  2019-08-23 21:54:55    
-                         
- Summary:                
-  Classes: 33.33% (1/3)  
-  Methods: 77.78% (14/18)
-  Lines:   77.11% (64/83)
+Code Coverage Report:      
+  2019-09-01 22:55:30      
+                           
+ Summary:                  
+  Classes: 33.33% (1/3)    
+  Methods: 88.89% (16/18)  
+  Lines:   86.76% (118/136)
 
 \FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\ANode
   Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  3/  3)
 \FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\LinkedList
-  Methods:  86.67% (13/15)   Lines:  95.35% ( 41/ 43)
+  Methods:  93.33% (14/15)   Lines:  97.67% ( 42/ 43)
 \FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\StringNode
-  Methods:   0.00% ( 0/ 2)   Lines:  50.00% (  2/  4)
+  Methods:  50.00% ( 1/ 2)   Lines:  75.00% (  3/  4)
