@@ -1,4 +1,5 @@
-<?php declare(strict_types=1);
+<?php /** @noinspection ALL */
+declare(strict_types=1);
 
 use FunwithelePHPant\Datastructures\LinkedList\{LinkedList, StringNode};
 use FunwithelePHPant\Datastructures\Contracts\{IStack, IQueue, IBag};

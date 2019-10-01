@@ -13,11 +13,11 @@ use FunwithelePHPant\Datastructures\LinkedList\ANode as Node;
 class LinkedList implements IBag, IStack, IQueue, \Iterator
 {
 
-    private $first = null;
-    private $last = null;
-    private $size = 0;
-    private $current = null;
-    private $index = 0;
+    protected $first = null;
+    protected $last = null;
+    protected $size = 0;
+    protected $current = null;
+    protected $index = 0;
 
     /**
      * @return bool
