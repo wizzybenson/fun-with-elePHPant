@@ -8,6 +8,7 @@
         "psr-4": {
             "FunwithelePHPant\\Datastructures\\": "src/Datastructures",
             "FunwithelePHPant\\Algorithms\\": "src/Algorithms",
+            "FunwithelePHPant\\Exceptions\\": "src/Exceptions",
             "FunwithelePHPant\\Benchmark\\Framework\\": "lib/benchmark/",
             "FunwithelePHPant\\Config\\": "config/"
         },
