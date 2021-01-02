@@ -10,7 +10,8 @@
             "FunwithelePHPant\\Algorithms\\": "src/Algorithms",
             "FunwithelePHPant\\Exceptions\\": "src/Exceptions",
             "FunwithelePHPant\\Benchmark\\Framework\\": "lib/benchmark/",
-            "FunwithelePHPant\\Config\\": "config/"
+            "FunwithelePHPant\\Config\\": "config/",
+            "FunwithelePHPant\\Container\\": "src/Container"
         },
         "files": ["src/functions/fn.fundamentals.php"] 
     },
@@ -23,5 +24,9 @@
     "bin": ["bin/fun-with-elePHPant"],
     "require-dev": {
         "phpunit/phpunit": "^8.2"
+    },
+    "require": {
+        "container-interop/container-interop": "^1.2",
+        "monolog/monolog": "^2.0"
     }
 }

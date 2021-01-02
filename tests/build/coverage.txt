@@ -1,28 +1,12 @@
 
 
-Code Coverage Report:      
-  2019-10-01 19:38:33      
-                           
- Summary:                  
-  Classes: 22.22% (2/9)    
-  Methods: 63.64% (28/44)  
-  Lines:   80.55% (236/293)
+Code Coverage Report:     
+  2020-07-29 01:06:49     
+                          
+ Summary:                 
+  Classes:  4.76% (1/21)  
+  Methods:  2.60% (2/77)  
+  Lines:    1.90% (12/631)
 
-\FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\ANode
-  Methods: 100.00% ( 1/ 1)   Lines: 100.00% (  3/  3)
-\FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\IntegerNode
-  Methods:   0.00% ( 0/ 2)   Lines:  50.00% (  2/  4)
-\FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\LinkedList
-  Methods: 100.00% (15/15)   Lines: 100.00% ( 43/ 43)
-\FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\OtherLinkedListMethods
-  Methods:  41.67% ( 5/12)   Lines:  70.48% ( 74/105)
-\FunwithelePHPant\Datastructures\LinkedList::FunwithelePHPant\Datastructures\LinkedList\StringNode
-  Methods:  50.00% ( 1/ 2)   Lines:  75.00% (  3/  4)
-\FunwithelePHPant\Datastructures\UnionFind::FunwithelePHPant\Datastructures\UnionFind\QuickUnionFind
-  Methods:  50.00% ( 1/ 2)   Lines:  90.91% ( 10/ 11)
-\FunwithelePHPant\Datastructures\UnionFind::FunwithelePHPant\Datastructures\UnionFind\UnionFind
-  Methods:  50.00% ( 2/ 4)   Lines:  71.43% (  5/  7)
-\FunwithelePHPant\Datastructures\UnionFind::FunwithelePHPant\Datastructures\UnionFind\UnionQuickFind
-  Methods:  50.00% ( 1/ 2)   Lines:  90.91% ( 10/ 11)
-\FunwithelePHPant\Datastructures\UnionFind::FunwithelePHPant\Datastructures\UnionFind\WeightedQuickUnionFind
-  Methods:  50.00% ( 2/ 4)   Lines:  84.21% ( 16/ 19)
+\FunwithelePHPant\Algorithms::FunwithelePHPant\Algorithms\Subset
+  Methods: 100.00% ( 2/ 2)   Lines: 100.00% ( 12/ 12)
